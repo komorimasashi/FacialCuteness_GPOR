@@ -41,8 +41,8 @@ dataファイルのfilename_result.csvとfilename_response.csvを使ってGPOR�
 ```
 python ./post_process/post_process_prottype.py
 ```
-個々人の予測平均filename_mu_result.csvと予測分散がfilename_var_result.csvが生成される．
-全体の予測平均はmu_z.csvと予測分散はsig_2_mu.csvで保存される
+個々人の予測平均filename_mu_result.csvと予測分散がfilename_var_result.csvが保存される．
+全体の予測平均はmu_z.csv,予測分散はsig_2_mu.csvで保存される
 
 
 
