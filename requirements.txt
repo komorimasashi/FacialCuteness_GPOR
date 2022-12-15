@@ -3,3 +3,4 @@ gpflow
 numpy
 pandas
 matplotlib
+scipy 
