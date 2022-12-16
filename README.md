@@ -7,17 +7,18 @@ Komori, M., Teraji, T., Shiroshita, K., & Nittono, H. (2022). Frontiers in Psych
 ```
 .
 ├── 002.psyexp
-├── 002_lastrun.py  かわいいの実験システム(psychopyで作成)
+├── 002_lastrun.py      かわいいの実験システム(psychopyで作成)
 ├── README.md
-├── data            探索点に対応した応答データ
+├── data                探索点に対応した応答データ
 ├── ego
-│   ├── gpor.py    事後分析での関数 (GPOR使用)
+│   ├── gpor.py         事後分析での関数 (GPOR使用)
 │   └── stimulation
-|        └──fece.py -1〜1のランダム点の関数（実験で使用）
+|        └──fece.py     -1〜1のランダム点の関数（実験で使用）
 |
-├── image_data      幼児の顔を合成した刺激画像
-├── koushinchu.png  試行の間のグレー画像
-└── post_process    応答データで事後分析
+├── image_data          幼児の顔を合成した刺激画像
+├── koushinchu.png      試行の間のグレー画像
+├── requirements.txt    必要なパッケージ 
+└── post_process        応答データで事後分析
 ```
 # 実行手順
 ## 環境の構築
