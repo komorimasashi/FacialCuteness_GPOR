@@ -1,7 +1,6 @@
 # 研究論文
-「Examination of morphological traits of children's faces related to perceptions of cuteness using Gaussian process ordinal regression. Frontiers in Psychology」
+Komori, M., Teraji, T., Shiroshita, K., & Nittono, H. (2022). Examination of morphological traits of children's faces related to perceptions of cuteness using Gaussian process ordinal regression. Frontiers in Psychology, 13.
 
-Komori, M., Teraji, T., Shiroshita, K., & Nittono, H. (2022). Frontiers in Psychology, 13.
 https://doi.org/10.3389/fpsyg.2022.979341
 
 # ファイル内容
