@@ -1,4 +1,4 @@
-# Article Info
+# Article
 Citation: Komori M, Teraji T, Shiroshita K and Nittono H (2022) Examination of morphological traits of children's faces related to perceptions of cuteness using Gaussian process ordinal regression. Front. Psychol. 13:979341. doi: 10.3389/fpsyg.2022.979341
 
 https://doi.org/10.3389/fpsyg.2022.979341
@@ -8,11 +8,11 @@ Abstract: Konrad Lorenz, an ethologist, proposed that certain physical elements 
 Received: 15 July 2022; Accepted: 17 October 2022;
 Published: 03 November 2022.
 
-# ファイル内容
+# Data Repository
 ```
 .
 ├── 002.psyexp
-├── 002_lastrun.py      かわいいの実験システム(psychopyで作成)
+├── 002_lastrun.py      Application for cuteness evaluation made by pschopy　（かわいいの実験システム(psychopyで作成)）
 ├── README.md
 ├── data                探索点に対応した応答データ
 ├── ego
@@ -49,8 +49,6 @@ python ./post_process/post_process_prottype.py
 ```
 個々人の予測平均filename_mu_result.csvと予測分散がfilename_var_result.csvが保存される．
 全体の予測平均はmu_z.csv,予測分散はsig_2_mu.csvで保存される
-
-
 
 
 
