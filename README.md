@@ -1,4 +1,4 @@
-# Article　information
+# Article information
 Komori M, Teraji T, Shiroshita K and Nittono H (2022) Examination of morphological traits of children's faces related to perceptions of cuteness using Gaussian process ordinal regression. Front. Psychol. 13:979341. doi: 10.3389/fpsyg.2022.979341
 
 Abstract: Konrad Lorenz, an ethologist, proposed that certain physical elements are perceived as cute and induce caretaking behavior in other individuals, with the evolutionary function of enhancing offspring survival. He called these features Kindchenschema, baby schema. According to his introspection, these include a large forehead, chubby round features, and chubby cheeks. Previous studies are limited to examining the effects of these facial features on perceived cuteness. However, other morphological factors may be related to perceived cuteness. This study uses Bayesian optimization, one of the global sequential optimization methods for estimating unknown functions, to search for facial morphological features that enhance the perceptions of facial cuteness. We applied Bayesian optimization incorporating Gaussian process ordinal regression (GPOR), which allows an estimation of the latent cuteness function based on evaluations using the Likert scale. A total of 96 preschool children provided the facial images used in this study. We summarized the facial shape variations using methodologies of geometric morphometrics and principal component analysis (PCA) up to the third principal component (PC), which we refer to as the face space. A total of 40 participants evaluated the images created by warping the average facial texture of the children's faces with randomly generated parameters in the face space. Facial traits related to perceived cuteness were estimated based on the averaged cuteness function. Perceived cuteness was linked to the relative lower position of facial components and narrower jawline but not to the forehead height.
@@ -25,9 +25,10 @@ https://doi.org/10.3389/fpsyg.2022.979341
 ├── requirements.txt    Requirements 
 └── post_process        Post-experiment analysis （事後分析用）
 ```
+
 # Getting started　実行手順
-## 環境の構築
-To use GPflow, CUDA 11 or higher and Tensorflow2 are required.
+## Environment 環境の構築
+GPflow is used in this program, so CUDA 11 or higher and Tensorflow2 are required.
 GPflowを使っているためCUDA11以上のtensorflow2系が必要です．
 ```
 pip install -r requirements.txt
@@ -69,7 +70,3 @@ Komori M, Teraji T, Shiroshita K and Nittono H (2022) Examination of morphologic
   publisher={Frontiers Media SA}
 }
 ```
-
-
-
-
