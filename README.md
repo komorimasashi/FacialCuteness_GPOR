@@ -7,6 +7,19 @@ Abstract: Konrad Lorenz, an ethologist, proposed that certain physical elements 
 
 Published: 03 November 2022.
 
+```
+@article{komori2022examination,
+  title={Examination of morphological traits of children's faces related to perceptions of cuteness using Gaussian process ordinal regression},
+  author={Komori, Masashi and Teraji, Teppei and Shiroshita, Keito and Nittono, Hiroshi},
+  journal={Frontiers in Psychology},
+  volume={13},
+  year={2022},
+  url={https://www.frontiersin.org/articles/10.3389/fpsyg.2022.979341},   
+  year={2022},
+  publisher={Frontiers Media SA}
+}
+```
+
 # Data Repository
 ```
 .
