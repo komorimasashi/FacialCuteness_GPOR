@@ -28,7 +28,7 @@ https://doi.org/10.3389/fpsyg.2022.979341
 
 # Getting started　実行手順
 ## Environment 環境の構築
-GPflow is used in this program, so CUDA 11 or higher and Tensorflow2 are required.
+GPflow is used in this program, so CUDA 11 or higher and Tensorflow2 are required.  
 GPflowを使っているためCUDA11以上のtensorflow2系が必要です．
 ```
 pip install -r requirements.txt
@@ -43,14 +43,14 @@ python 002_lastrun.py
 ここで必要になるファイルは，filename_result.csvとfilename_response.csv
 
 ## Utility function estimation (事後分析（効用関数の推定））
-Estimating individual utility function using  GPOR using filename_result.csv and filename_response.csv in the data folder
+Estimating individual utility function using  GPOR using filename_result.csv and filename_response.csv in the data folder.  
 dataファイルのfilename_result.csvとfilename_response.csvを使ってGPORで個人の効用関数を推定する.
 
 ```
 python ./post_process/post_process_prottype.py
 ```
 The individual predicted means are saved as filename_mu_result.csv, and the predicted variances are saved as  filename_var_result.csv.
-The composite predicted means are saved as mu_z.csv and the composite predicted variances as sig_2_mu.csv.
+The composite predicted means are saved as mu_z.csv and the composite predicted variances as sig_2_mu.csv.  
 
 個々人の予測平均filename_mu_result.csvと予測分散がfilename_var_result.csvが保存される．
 全体の予測平均はmu_z.csv,予測分散はsig_2_mu.csvで保存される
